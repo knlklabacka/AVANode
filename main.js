@@ -5,8 +5,8 @@ const https = require('https');
 const fs = require('fs');
 
 const options = {
-    key: fs.readFileSync('./openssl/ssl.key'),
-    cert: fs.readFileSync('./openssl/ssl.crt')
+    key: fs.readFileSync('../../openssl/ssl.key'),
+    cert: fs.readFileSync('../../openssl/ssl.crt')
 };
 
 // create https server port 3000
